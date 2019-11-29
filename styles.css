@@ -1,0 +1,188 @@
+ /*-------------------*/
+ /*---BASIC SET-UP---*/
+/*-------------------*/
+body {
+    font-family: 'montserrat alternates', sans-serif;
+    font-size: 1.25rem;   
+}
+.container-fluid {
+    padding: 2% 5%;
+}
+
+
+/*-------------------*/
+/*----HEADER-SECTION-*/
+ /*-------------------*/
+#title {
+     background-color: #ff4c68;  
+     color: #fff; 
+     padding: 7% 15%; 
+}
+
+h1 {
+    font-family: 'montserrat alternates' , sans-serif; 
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder; 
+    margin-left: 1rem;   
+}
+.h-btn {
+    margin: 1rem 0 1rem 0;
+    border: 1px solid #fff;
+    border-radius: 12.5rem;
+}
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 35%;
+
+}
+/* NAVIGATION-TOP */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.nav-item {
+    padding: 0 18px; 
+}
+/*-------------------*/
+/*----FEATURES-SECTION-*/
+/*-------------------*/
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}    
+                         /* note:your elements need to be 'positioned' for 'z-index' to work
+                         ,also if a section, remember to add a background-color which cud b white too. */
+.each-feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon-big {
+color: #ef8172;
+margin-bottom: 1rem;
+}
+.icon-big:hover {
+    color: #ff4c68;
+    }
+
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: #555;
+}
+  /*-------------------------*/
+ /*----TESTIMONIALS-SECTION-*/
+/*------------------------*/
+#testimonials {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.testimonial-img {
+    width: 10%;
+    border: 1px solid #555;
+    border-radius:12.5rem; 
+    margin: 1.25rem;
+}
+.carousel-item {
+    padding: 7% 15% ;
+}
+       /* to make the carousel buttons more outwide, we move d padding from the section into the carousel item  */
+
+/*-------------------------*/
+ /*----PRESS-SECTION-*/
+/*------------------------*/
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/*-------------------------*/
+ /*----PRICING-SECTION----*/
+/*------------------------*/
+#pricing {
+    text-align: center;
+    padding: 6.25rem;
+}
+.pricing-column {
+    padding: 3% 2%; 
+}
+/*------------------------------------*/
+ /*----CALL TO ACTION(cta)-SECTION---*/
+/*----------------------------------*/
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.cta-h {
+    font-weight: bolder;
+    padding: 2rem;
+}
+  /*-------------------------*/
+ /*----FOOTER-SECTION----*/
+/*------------------------*/
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icons {
+   margin: 20px 10px;
+   color: #555;
+}
+.copyright-a {
+    color: #555;
+}
+.fa-facebook:hover{
+color:#3b5998;
+}
+.fa-twitter:hover {
+color: #1da1f2;
+}
+/*-------------------------*/
+ /*---MEDIA QUERIES-@--*/
+/*------------------------*/
+
+@media (max-width: 1020px){
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+    body {text-align: center;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
